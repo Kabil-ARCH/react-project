@@ -1,0 +1,43 @@
+.inpParent {
+	display: flex;
+	height: 120px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.inpBar {
+	border: 2px solid #f3f3f4;
+	height: 30px;
+	width: 80%;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 1.5em;
+	color: #151719;
+}
+
+.inpBar::placeholder {
+	color: #151719;
+}
+
+.inpBtn {
+	background-color: #ffffff;
+	padding: 15px 20px;
+	border: 2px solid #f3f3f4;
+	border-radius: 10px;
+	color: #007dfc;
+	cursor: pointer;
+}
+
+.inpBtn .menu>span {
+	font-size: 30px;
+}
+
+.menu {
+	background-color: #007dfc;
+	padding: 15px 20px;
+	border: 2px solid #007dfc;
+	border-radius: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	transition: 0.3s;
+}

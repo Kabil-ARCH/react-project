@@ -1,0 +1,42 @@
+.buttons {
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-bottom: 2px solid #e1dedc;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 15px;
+	width: 30%;
+	background-color: #ffffff;
+	border: 2px solid #8b9ba1;
+	border-radius: 10px;
+	flex-wrap: wrap;
+	p {
+		font-size: 1.3em;
+		font-weight: 600;
+	}
+}
+
+.changeBtn1 {
+	color: #007dfc;
+	border: 2px solid #007dfc;
+	p {
+		font-weight: 600;
+	}
+}
+
+.changeBtn2 {
+	background-color: #007dfc;
+	padding: 18px;
+	width: 60%;
+	border: none;
+
+	p {
+		color: #ffffff;
+	}
+}

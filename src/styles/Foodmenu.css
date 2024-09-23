@@ -1,0 +1,244 @@
+.FoodMenu {
+	height: 100%;
+	transition: left 3s ease;
+}
+
+.Header {
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 30px 0 30px;
+}
+
+.Header h5 {
+	font-size: 1.6em;
+	font-weight: 600;
+	color: #000000;
+}
+
+.Close {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #eff1f4;
+	border: 3px solid #576267;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+	span {
+		font-size: 1.6em;
+		color: #576267;
+	}
+}
+
+.ImgShow {
+	height: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0 30px;
+}
+
+.BtnHolder {
+	height: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #e2e4e6;
+	margin: 10px 25px 10px 25px;
+	border-radius: 10px;
+}
+
+.imgPrv {
+	height: 80%;
+	width: 22%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.ImgShow h4 {
+	font-size: 1.6em;
+	font-weight: 400;
+}
+
+.FoodBtn {
+	height: 100%;
+	width: 300px;
+	background-color: #f1f3f6;
+	border: none;
+	font-size: 1.3em;
+	font-weight: 500;
+	transition: 0.1s;
+	cursor: pointer;
+}
+
+.variant {
+	height: 100%;
+	width: 300px;
+	background-color: #1263df;
+	border: none;
+	font-size: 1.3em;
+	font-weight: 500;
+	color: #edf1fb;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 2px solid #1263df;
+}
+
+.addOn {
+	height: 100%;
+	width: 300px;
+	background-color: #1263df;
+	border: none;
+	font-size: 1.3em;
+	font-weight: 500;
+	color: #edf1fb;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 2px solid #1263df;
+}
+
+.addOn1 {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.variant1 {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.Tag {
+	height: 50%;
+}
+
+.Topic {
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 20px 10px;
+}
+
+.Topic h4 {
+	font-size: 1.8em;
+	font-weight: 600;
+}
+
+.PriceList {
+	height: 85%;
+	display: flex;
+	flex-direction: column;
+
+	border-bottom: 4px solid #eaecef;
+}
+
+.items {
+	height: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 30px;
+	border-bottom: 2px solid #eaecef;
+
+	p {
+		font-size: 1.4em;
+		font-weight: 600;
+	}
+
+	input {
+		height: 25px;
+		width: 22px;
+		background-color: #1263df;
+		cursor: pointer;
+	}
+}
+
+.FoodDet {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.FoodDet h5 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+.priceTag {
+	height: 12%;
+}
+
+.money {
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 30px;
+
+	p {
+		font-size: 1.4em;
+		font-weight: 400;
+	}
+}
+
+.money h5 {
+	font-size: 1.5em;
+	font-weight: 550;
+}
+
+.BtnHold {
+	height: 70%;
+	display: flex;
+}
+
+.Quantit {
+	height: 75%;
+	width: 30%;
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+	background-color: #ffffff;
+	border: 2px solid #f2f3f4;
+	box-shadow: 0px 0px 1px #d9dbdd;
+	font-size: 1.5em;
+	font-weight: 500;
+	border-radius: 10px;
+	margin-top: 10px;
+
+	button {
+		background: none;
+		border: none;
+		font-size: 1.8em;
+		font-weight: 300;
+		width: 40px;
+		cursor: pointer;
+	}
+}
+
+.Sub {
+	width: 50%;
+	margin-top: 10px;
+	height: 75%;
+	background-color: #1263df;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	span {
+		font-size: 1.4em;
+		font-weight: 500;
+		color: #ffffff;
+	}
+}

@@ -1,0 +1,116 @@
+.Table {
+	margin-top: 20px;
+	max-height: 800px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.real_tab {
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.real_tab {
+	thead {
+		background-color: #ffffff;
+		border: 2px solid #f2f3f4;
+
+		tr {
+			border: 2px solid #f2f3f4;
+			position: sticky;
+			top: 0;
+			background-color: inherit;
+			z-index: 1;
+		}
+	}
+}
+
+.title {
+	color: #7e8487;
+}
+
+.item {
+	display: flex;
+	width: 50%;
+	height: 60px;
+	font-size: 1.3em;
+	font-weight: 500;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 20px;
+}
+
+.item_1 {
+	display: flex;
+	width: 90%;
+	height: 120px;
+	font-size: 1.3em;
+	font-weight: 400;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 20px;
+	font-size: 1.4em;
+}
+
+.Quantity {
+	width: 25%;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+.Quantity button {
+	background: none;
+	border: none;
+	font-size: 1.8em;
+	font-weight: 300;
+	width: 40px;
+	cursor: pointer;
+}
+
+.inQty {
+	width: 60%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	margin-left: 60px;
+	font-size: 1.2em;
+	border: 2px solid #e1e3e5;
+}
+
+.amount {
+	width: 25%;
+	font-size: 1.5em;
+	font-weight: 400;
+
+	p {
+		font-size: 1.6em;
+		font-weight: 600;
+	}
+
+	.amtDes {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+
+		button {
+			background: none;
+			border: none;
+			color: #969fa3;
+			cursor: pointer;
+		}
+	}
+}
+
+.amount h6 {
+	font-weight: 400;
+	font-size: 1em;
+	margin-right: 50px;
+}
+
+.tableRow {
+	height: 120px;
+	border-bottom: 2px solid #f2f3f4;
+}

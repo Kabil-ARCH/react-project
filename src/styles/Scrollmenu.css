@@ -1,0 +1,71 @@
+.Box {
+	height: 7.5%;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-left: 25px;
+	overflow-x: scroll;
+	scrollbar-width: none;
+	list-style: none;
+	margin-bottom: 10px;
+
+	.btn {
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 30px 12px;
+		background-color: #ffffff;
+		border: 2px solid #e1dedc;
+		border-radius: 15px;
+		font-size: 1.4em;
+		cursor: pointer;
+	}
+
+	span {
+		padding: 11px;
+		font-size: 1em;
+		width: 100%;
+		font-weight: 500;
+	}
+}
+
+.fav {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background: #ffffff;
+	border: 2px solid #e1dedc;
+	padding: 3px 15px;
+	border-radius: 10px;
+
+	span {
+		padding: 11px;
+		font-size: 1.4em;
+		font-weight: 700;
+		cursor: pointer;
+	}
+}
+
+.activated {
+	background-color: #1263df;
+	color: #ffffff;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 30px 12px;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.4em;
+	border: 2px solid #1263df;
+	transition: 0.15s;
+	cursor: pointer;
+
+	span {
+		padding: 11px;
+		font-size: 1em;
+		width: 100%;
+		font-weight: 500;
+	}
+}

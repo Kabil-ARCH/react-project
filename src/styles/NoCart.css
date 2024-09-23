@@ -1,0 +1,25 @@
+.NoCart {
+	height: 500px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	user-select: none;
+}
+
+.NoCart img {
+	height: 250px;
+}
+
+.NoCart h5 {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.NoCart p {
+	margin-top: 10px;
+	font-size: 1.5em;
+	color: #b3b9b9;
+}
